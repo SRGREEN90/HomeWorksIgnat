@@ -1,0 +1,14 @@
+.someClass {
+    width: 400px;
+    display: flex;
+    justify-content: right;
+    padding-right: 230px;
+    position: center;
+
+}
+
+.someClass .some {
+    justify-content: left;
+    width: 400px;
+    display: flex;
+}
