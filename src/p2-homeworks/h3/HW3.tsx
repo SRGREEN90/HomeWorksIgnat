@@ -14,7 +14,7 @@ function HW3() {
 
     const addUserCallback = (name: string) => { // need to fix any
         let newUser = {_id: v1(), name: name}
-        setUsers([ ...users,newUser]) // need to fix [0,1,2,3,4]
+        setUsers([ ...users, newUser]) // need to fix [0,1,2,3,4]
     }
 
     return (
