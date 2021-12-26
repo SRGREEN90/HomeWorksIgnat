@@ -9,8 +9,12 @@ function HW6() {
     const save = () => {
         saveState<string>('editable-span-value', value)
     }
+
+
     const restore = () => {
-        // setValue()
+     //   let getValue = restoreState( 'editable-span-value', value)
+      //  let result = JSON.parse(getValue)
+        setValue(restoreState('editable-span-value', value))
     }
 
     return (
@@ -38,3 +42,4 @@ function HW6() {
 }
 
 export default HW6
+//ГОТОВО
