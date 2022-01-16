@@ -27,7 +27,7 @@ left: 130%;
     text-transform: uppercase;
     border-radius: 5px;
     background-color: #fff;
-    position: relative;
+    /*position: relative;*/
     cursor: pointer;
     overflow: hidden;
 }
