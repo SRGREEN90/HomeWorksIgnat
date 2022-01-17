@@ -32,7 +32,7 @@ type MainType = loadingACType | stopLoadingACType
 export type loadingACType = ReturnType<typeof loadingAC>
 export type stopLoadingACType = ReturnType<typeof stopLoadingAC>
 
-export const loadingAC = (isLoading: boolean): any => {
+export const loadingAC = (): any => {
     return{
         type: LOADING,
         payload:{
@@ -40,7 +40,7 @@ export const loadingAC = (isLoading: boolean): any => {
         }
     }as const
 }
-export const stopLoadingAC = (isLoading: boolean): any => {
+export const stopLoadingAC = (): any => {
     return{
         type: STOP_LOADING,
         payload:{
