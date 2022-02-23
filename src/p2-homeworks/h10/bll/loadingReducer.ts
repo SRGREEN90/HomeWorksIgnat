@@ -1,5 +1,3 @@
-
-
 const LOADING = 'LOADING'
 const STOP_LOADING = 'STOP_LOADING'
 

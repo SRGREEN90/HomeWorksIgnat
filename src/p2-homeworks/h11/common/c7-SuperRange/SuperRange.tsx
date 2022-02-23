@@ -10,6 +10,7 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 type SuperRangePropsType = DefaultInputPropsType & { // и + ещё пропсы которых нет в стандартном инпуте
     onChangeRange: (value: number) => void
     value: number
+
 };
 
 const SuperRange: React.FC<SuperRangePropsType> = (

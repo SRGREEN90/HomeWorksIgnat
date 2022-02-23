@@ -1,21 +1,20 @@
-import React  from 'react'
+import React from 'react'
 import Slider from "@mui/material/Slider";
 
 
 type SuperDoubleRangePropsType = {
-    onChangeRange: (value1: number, value2:number) => void
+    onChangeRange: (value1: number, value2: number) => void
     value: [number, number]
     step: number
-    disable: boolean
+    disabled: boolean
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (props) => {
 
-    const handleChange = (event: Event, value: number | number[], activeThumb: number) => {
-        if(Array.isArray(value)){
+    const handleChange = (event: Event, value: number | number[]) => {
+        if (Array.isArray(value)) {
             props.onChangeRange(value[0], value[1])
         }
-        console.log(value)
     };
 
     return (
@@ -30,9 +29,6 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (props) => {
 }
 
 export default SuperDoubleRange
-
-
-
 
 
 // import React, {ChangeEvent, useState} from 'react'

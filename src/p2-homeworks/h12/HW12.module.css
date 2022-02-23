@@ -21,3 +21,28 @@
 .some-text {
     color: darkslateblue;
 }
+
+.brown {
+    background: #91584c;
+}
+
+.brown-text {
+    color: #f18558;
+}
+
+.blue {
+    background: #5b8cd3;
+}
+
+.blue-text {
+    color: #f6cd5f;
+}
+
+.orange {
+    background: #f38349;
+}
+
+.orange-text {
+    color: #2a4b1f;
+}
+

@@ -21,7 +21,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         let onChange = e.currentTarget.value
              onChangeOption?.(onChange)
     }
-    console.log(value)
 
 
     const mappedOptions: any[] = options ? options.map((o, i) => (
